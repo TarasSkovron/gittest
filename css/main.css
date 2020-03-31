@@ -12,4 +12,20 @@ h3 {
 h2 {
     color:chartreuse; 
 }
+.container {
+    display: flex;
+    height: 600px;
+    width: 600px;
+    background-color: cornflowerblue;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 5px; 
+}
 
+.one {
+   
+    background-color: darkorange; 
+    padding: 5px;
+    margin: 5px;  
+}
